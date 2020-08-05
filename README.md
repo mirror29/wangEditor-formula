@@ -1,8 +1,6 @@
-# wangEdior-with-vue
+# wangEditor-with-vue
+
 wangEditor 在 vue 中的使用
-
-
-### 开始使用
 
 ```
 # 克隆项目
@@ -18,24 +16,8 @@ npm install
 npm run serve
 ```
 
-### 目录结构
+其中，wangEditor 相关的代码可参考 `src/views/Home.vue`
 
-```
-wangEdior-with-vue  项目目录
-├─src
-│  ├─assets
-│  ├─router
-│  ├─views
-│  │  └─Home.vue    wangEditor示例
-│  │
-│  ├─app.vue
-│  └─main.js
-│
-├─public
-├─...
-```
+todo
 
-
-### 销毁编辑器
-
-待补充
+- [ ] 组件 beforeDestroy 时，销毁编辑器
