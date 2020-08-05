@@ -17,3 +17,25 @@ npm install
 # 运行项目（将自动在浏览器打开 http://localhost:8080 ）
 npm run serve
 ```
+
+### 目录结构
+
+```
+wangEdior-with-vue  项目目录
+├─src
+│  ├─assets
+│  ├─router
+│  ├─views
+│  │  └─Home.vue    wangEditor示例
+│  │
+│  ├─app.vue
+│  └─main.js
+│
+├─public
+├─...
+```
+
+
+### 销毁编辑器
+
+待补充
