@@ -39,6 +39,10 @@ export default {
       let data = this.editor.txt.html()
       alert(data)
     }
+  },
+  beforeDestroy() {
+    // 调用销毁 API 对当前编辑器实例进行销毁
+    this.editor.destroy()
   }
 }
 </script>

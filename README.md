@@ -17,7 +17,3 @@ npm run serve
 ```
 
 其中，wangEditor 相关的代码可参考 `src/views/Home.vue`
-
-todo
-
-- [ ] 组件 beforeDestroy 时，销毁编辑器
