@@ -11,7 +11,7 @@
 <script>
 
 // 引入 wangEditor
-import wangEditor from '@wangeditor-team/we-next'
+import wangEditor from 'wangeditor'
 
 export default {
   data() {
