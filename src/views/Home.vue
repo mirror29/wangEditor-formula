@@ -39,8 +39,17 @@ export default {
       let data = this.editor.txt.html()
       alert(data)
     }
+<<<<<<< HEAD
   }
 }
+=======
+  },
+  beforeDestroy() {
+    // 调用销毁 API 对当前编辑器实例进行销毁
+    this.editor.destroy()
+  }
+}
+>>>>>>> e33e7b90b97f5b24f07151e3cd98ad64ad6f2c09
 </script>
 
 <style lang="scss">
