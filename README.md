@@ -1,6 +1,7 @@
-# wangEditor-with-vue
+# wangEdior-formula
 
-wangEditor 在 vue 中的使用
+wangEditor公式编辑器kityformula + myscript-math-web
+
 
 ```
 # 克隆项目
