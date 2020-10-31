@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <script
+      type="module"
+      src="plugins/myscript-math-web/myscript-math-web.js"
+    ></script>
+    <script src="plugins/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+    <style>
+      myscript-math-web {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <myscript-math-web
+      scheme="https"
+      host="webdemoapi.myscript.com"
+      type="MATH"
+      timeout="2000"
+      applicationkey="你自己的applicationkey"
+      hmackey="你自己的hmackey"
+      mimetypes='["application/x-latex", "application/vnd.myscript.jiix"]'
+    >
+    </myscript-math-web>
+  </body>
+</html>

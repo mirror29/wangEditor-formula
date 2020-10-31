@@ -4,10 +4,10 @@ wangEditor 在 vue 中的使用
 
 ```
 # 克隆项目
-git clone git@github.com:wangeditor-team/wangEdior-with-vue.git
+git clone https://github.com/mirror29/wangEdior-formula.git
 
 # 进入项目目录
-cd wangEdior-with-vue
+cd wangEdior-formula
 
 # 安装依赖
 npm install
