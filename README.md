@@ -18,3 +18,5 @@ npm run serve
 ```
 
 其中，wangEditor 相关的代码可参考 `src/views/Home.vue`
+
+myscript-math-web  需自行注册账号，教程掘金地址 https://juejin.cn/post/6889639939328180231
