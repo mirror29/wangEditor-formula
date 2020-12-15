@@ -1,14 +1,14 @@
-# wangEdior-formula
+# wangEditor-formula
 
 wangEditor公式编辑器kityformula + myscript-math-web
 
 
 ```
 # 克隆项目
-git clone https://github.com/mirror29/wangEdior-formula.git
+git clone https://github.com/mirror29/wangEditor-formula.git
 
 # 进入项目目录
-cd wangEdior-formula
+cd wangEditor-formula
 
 # 安装依赖
 npm install
