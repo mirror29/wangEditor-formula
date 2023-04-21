@@ -42,6 +42,9 @@ import { onBeforeUnmount, ref, shallowRef, onMounted } from "vue";
 import { Editor, Toolbar } from "@wangeditor/editor-for-vue";
 import menu from "./Editor/kityformula.js";
 import { Boot } from "@wangeditor/editor";
+import formulaModule from "@wangeditor/plugin-formula";
+
+Boot.registerModule(formulaModule);
 
 export default {
   components: { Editor, Toolbar },
@@ -63,11 +66,21 @@ export default {
 
     const toolbarConfig = {
       insertKeys: {
-        index: 20,
-        keys: "my-menu-1",
+        index: 0,
+        keys: [
+          "insertFormula", // “插入公式”菜单
+          // 'editFormula' // “编辑公式”菜单
+        ],
       },
     };
-    const editorConfig = { placeholder: "请输入内容..." };
+    const editorConfig = {
+      placeholder: "请输入内容...",
+      hoverbarKeys: {
+        formula: {
+          menuKeys: ["editFormula"], // “编辑公式”菜单
+        },
+      },
+    };
 
     // 组件销毁时，也及时销毁编辑器，重要！
     onBeforeUnmount(() => {
