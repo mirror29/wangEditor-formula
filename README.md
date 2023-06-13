@@ -1,22 +1,20 @@
-# wangEditor-formula
+# Vue3 wangEditor demo
 
-wangEditor公式编辑器kityformula + myscript-math-web
+本项目克隆至[该项目](https://github.com/wangfupeng1988/vue3-wangeditor-demo)通过 [Vue-cli](https://cli.vuejs.org/zh/) 创建。
 
+已添加[wangEditor-plugin-formula](https://github.com/wangeditor-team/wangEditor-plugin-formula)插件
 
-```
-# 克隆项目
-git clone https://github.com/mirror29/wangEditor-formula.git
+## 本地运行
 
-# 进入项目目录
-cd wangEditor-formula
-
-# 安装依赖
-npm install
-
-# 运行项目（将自动在浏览器打开 http://localhost:8080 ）
-npm run serve
+```sh
+yarn install
+yarn serve
 ```
 
-其中，wangEditor 相关的代码可参考 `src/views/Home.vue`
+其中，wangEditor 相关的代码可参考 `src/views/BasicEditor.vue`
 
-myscript-math-web  需自行注册账号，教程掘金地址 https://juejin.cn/post/6889639939328180231
+myscript-math-web 需自行注册账号，教程掘金地址 [https://juejin.cn/post/6889639939328180231](https://juejin.cn/post/6889639939328180231)
+
+## 参考
+
+- [文档](https://www.wangeditor.com/v5/for-frame.html#vue3)
