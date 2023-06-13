@@ -14,9 +14,10 @@
     "@wangeditor/plugin-ctrl-enter": "^1.0.2",
     "@wangeditor/plugin-formula": "^1.0.11",
     "core-js": "^3.6.5",
+    "jquery": "^3.6.4",
     "katex": "^0.16.6",
     "snabbdom": "^3.1.0",
-    "vue": "^3.2.21"
+    "vue": "^3.3.4"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -39,7 +40,9 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "no-unused-vars": "off"
+    }
   },
   "browserslist": [
     "> 1%",
